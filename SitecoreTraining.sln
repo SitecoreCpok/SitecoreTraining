@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{305886C7-329F-4E2D-9DFE-B32393332B31}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		NuGet.config = NuGet.config
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{61AD5F0C-AF5A-4C54-B1EF-5B591CF6AD6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{2CC93864-55F3-4E42-9F29-A0AD208E5A9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{853D9162-E8B8-4196-901B-CCE56527192C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreTraining", "SitecoreTraining", "{FF7AC1AE-FC1A-45C6-9A31-2F2A777FB79F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{13DB89D8-4C6F-430D-AEE5-3534597B4F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreTraining.Project.SitecoreTraining", "src\Project\SitecoreTraining\code\SitecoreTraining.Project.SitecoreTraining.csproj", "{3F4729FE-3E08-4380-B868-5C77B7CF0902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreTraining.Feature.Demo", "src\Feature\Demo\code\SitecoreTraining.Feature.Demo.csproj", "{8FAA9445-B41E-4439-AD37-5AF0FB4A9CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4729FE-3E08-4380-B868-5C77B7CF0902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4729FE-3E08-4380-B868-5C77B7CF0902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4729FE-3E08-4380-B868-5C77B7CF0902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4729FE-3E08-4380-B868-5C77B7CF0902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAA9445-B41E-4439-AD37-5AF0FB4A9CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAA9445-B41E-4439-AD37-5AF0FB4A9CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAA9445-B41E-4439-AD37-5AF0FB4A9CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAA9445-B41E-4439-AD37-5AF0FB4A9CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF7AC1AE-FC1A-45C6-9A31-2F2A777FB79F} = {853D9162-E8B8-4196-901B-CCE56527192C}
+		{13DB89D8-4C6F-430D-AEE5-3534597B4F17} = {61AD5F0C-AF5A-4C54-B1EF-5B591CF6AD6B}
+		{3F4729FE-3E08-4380-B868-5C77B7CF0902} = {FF7AC1AE-FC1A-45C6-9A31-2F2A777FB79F}
+		{8FAA9445-B41E-4439-AD37-5AF0FB4A9CAF} = {13DB89D8-4C6F-430D-AEE5-3534597B4F17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B57316C0-7011-416A-9B34-5A2A26BCD2EA}
+	EndGlobalSection
+EndGlobal
